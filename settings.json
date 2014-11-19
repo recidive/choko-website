@@ -1,8 +1,8 @@
 {
-  "database": "mongodb://localhost/demo",
+  "database": "mongodb://localhost/choko-org",
   "sessionSecret": "some-secret",
   "application": {
-    "name": "Choko Demo"
+    "name": "Choko"
   },
   "extensions": {
     "blog": {},
