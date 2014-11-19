@@ -1,0 +1,5 @@
+{
+  "title": "Choko",
+  "description": "Functionality specific for Choko site.",
+  "dependencies": ["context", "page", "panel", "navigation", "theme"]
+}

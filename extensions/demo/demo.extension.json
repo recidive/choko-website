@@ -1,5 +1,0 @@
-{
-  "title": "Demo",
-  "description": "Functionality specific for demo application.",
-  "dependencies": ["context", "page", "panel", "navigation"]
-}

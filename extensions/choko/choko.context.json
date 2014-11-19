@@ -1,0 +1,11 @@
+{
+  "title": "Choko",
+  "description": "Choko global context.",
+  "weight": -5,
+  "conditions": {
+    "siteWide": true
+  },
+  "reactions": {
+    "theme": "choko"
+  }
+}

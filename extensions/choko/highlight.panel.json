@@ -1,0 +1,7 @@
+{
+  "title": "Choko Framework",
+  "description": "Develop organic applications.",
+  "content": "<p class=\"lead\">Create beaultiful responsive web applications <strong>without writing any code</strong>.</p><p class=\"lead\">This is not magic. <strong>This is Choko<strong>.</p><p><a href=\"#/about\" class=\"btn btn-primary btn-lg\" role=\"button\">Learn more</a></p>",
+  "template": "/templates/panel-jumbotron.html",
+  "bare": true
+}
