@@ -2,5 +2,6 @@
   "path": "/create/blog",
   "title": "Create a blog post",
   "type": "form",
-  "formName": "type-blog"
+  "formName": "type-blog",
+  "redirect": "/blog"
 }

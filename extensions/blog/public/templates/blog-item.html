@@ -1,2 +1,2 @@
-<h2><a href="#/blog/{{item.name}}">{{item.title}}</a></h2>
-<div class="content" ng-bind-html="item.description || item.body"></div>
+<h2><a ng-bind="item.title" href="/blog/{{item.name}}"></a></h2>
+<div ng-bind-html="item.description || item.body" class="content"></div>

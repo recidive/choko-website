@@ -11,12 +11,24 @@
       "title": "Title",
       "type": "text"
     },
+    "image": {
+      "title": "Image",
+      "type": "file"
+    },
     "body": {
       "title": "Body",
       "type": "text",
       "element": {
-        "type": "textarea",
+        "type": "wysiwyg",
         "rows": 5
+      }
+    },
+    "comments": {
+      "title": "Comments",
+      "type": "reference",
+      "reference": {
+        "type": "comment",
+        "via": "post"
       }
     }
   },
