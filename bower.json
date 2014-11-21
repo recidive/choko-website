@@ -1,0 +1,6 @@
+{
+  "name": "choko-website",
+  "dependencies": {
+    "angular-markdown-directive": "0.3.x"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "directory": "public/lib",
+    "json": "bower.json",
+    "scripts": {
+      "postinstall": "rm -rf public/lib/angular"
+    }
+}
