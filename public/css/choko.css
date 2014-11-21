@@ -18,6 +18,8 @@ a {
 }
 
 /* Small displays */
+
+/* Homepage */
 .home .row-highlight {
   background: url(/img/hero-devices.jpg) 0 50% fixed repeat;
   margin-top: -21px;
@@ -31,14 +33,7 @@ a {
 }
 
 
-/* Medium and large displays */
-@media screen and (min-width: 768px) {
-  .home .row-highlight {
-    min-height: 509px;
-  }
-}
-
-/* For Yeti */
+/* Yeti customizations */
 .home .row-highlight .jumbotron h1 {
   font-size: 35px;
 }
@@ -54,6 +49,8 @@ a {
   font-weight: 500;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
 }
+
+/* Homepage */
 .home .row-feature-top {
   text-align: center;
   margin-top: 80px;
@@ -101,6 +98,9 @@ a {
 
 /* Medium and large displays */
 @media screen and (min-width: 768px) {
+  .home .row-highlight {
+    min-height: 509px;
+  }
   .home .row-highlight .jumbotron {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -119,6 +119,18 @@ a {
   .navbar-nav > li > a {
     padding-top: 35px;
     padding-bottom: 35px;
+  }
+  .home .row-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .home .row-content .image-left h2,
+  .home .row-content .image-left p {
+    padding-left: 55%;
+  }
+  .home .row-content .image-right h2,
+  .home .row-content .image-right p {
+    padding-right: 55%;
   }
 }
 

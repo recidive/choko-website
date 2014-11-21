@@ -51,7 +51,9 @@ choko.type = function(types, callback) {
 choko.page = function(pages, callback) {
   // Override homepage.
   pages['home'] = {
-    path: '/home'
+    path: '/home',
+    contentURL: '/content/home.html',
+    template: '/templates/html-page.html'
   };
 
   callback();
