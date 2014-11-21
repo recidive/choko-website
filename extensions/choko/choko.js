@@ -5,12 +5,6 @@ var choko = module.exports;
  */
 choko.navigation = function(navigations, callback) {
 
-  // Add main navigation items for the choko pages.
-  navigations['main'].items.push({
-    title: 'Features',
-    url: '/features'
-  });
-
   navigations['main'].items.push({
     title: 'Demo',
     url: 'http://demo.choko.org'
