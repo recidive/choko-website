@@ -35,6 +35,17 @@ choko.navigation = function(navigations, callback) {
 };
 
 /**
+ * The type() hook.
+ */
+choko.type = function(types, callback) {
+  // Add content field to pages for adding a link to a markdown page.
+  types['page'].fields.contentURL = {
+    type: 'text'
+  };
+  callback();
+};
+
+/**
  * The page() hook.
  */
 choko.page = function(pages, callback) {
