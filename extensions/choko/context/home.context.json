@@ -5,11 +5,15 @@
     "path": ["/home"]
   },
   "reactions": {
-    "layout": "one-column",
+    "layout": "homepage",
     "panel": {
       "highlight": [{
         "name": "highlight",
         "weight": 0
+      }],
+      "feature-top": [{
+        "name": "home-lead",
+        "weight": 1
       }],
       "feature-first": [{
         "name": "feature-pages",
