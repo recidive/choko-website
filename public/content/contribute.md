@@ -2,15 +2,15 @@ Choko is an Open Source project, there are many ways you can contribute to help 
 
 ## Development
 
-If you are a developer, you can get involved with Choko core development, as well as start your own Choko extension project by using Choko APIs. A good way to find what to work on is checking the issue queue.
+If you are a developer, you can get involved with Choko core development, as well as start your own Choko extension project by using Choko APIs. A good way to find what to work on is checking the [issue queue](https://github.com/recidive/choko/issues).
 
-Github repository / Issue queue
+[Github repository](https://github.com/recidive/choko) | [Issue queue](https://github.com/recidive/choko/issues)
 
 ## Testing and bug reporting
 
 Choko is under active development, as every piece of software, sometimes things may not work properly, we need people to test, break things and report back as issues, then developers will take care of given proper feedback.
 
-Install choko / Issue queue
+[Install choko](/documentation/installation) | [Issue queue](https://github.com/recidive/choko/issues)
 
 ## Documentation
 

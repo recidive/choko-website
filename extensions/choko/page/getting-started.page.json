@@ -1,5 +1,5 @@
 {
-  "path": "/documentation",
+  "path": "/getting-started",
   "title": "Getting started",
   "contentURL": "/content/documentation/getting-started.md",
   "template": "/templates/markdown-page.html"

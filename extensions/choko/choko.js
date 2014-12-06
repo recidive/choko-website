@@ -6,13 +6,13 @@ var choko = module.exports;
 choko.navigation = function(navigations, callback) {
 
   navigations['main'].items.push({
-    title: 'Demo',
-    url: 'http://demo.choko.org'
+    title: 'Getting started',
+    url: '/getting-started'
   });
 
   navigations['main'].items.push({
-    title: 'Documentation',
-    url: '/documentation'
+    title: 'Demo',
+    url: 'http://demo.choko.org'
   });
 
   navigations['main'].items.push({

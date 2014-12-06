@@ -1,0 +1,6 @@
+{
+  "path": "/documentation/installation",
+  "title": "Installation",
+  "contentURL": "/content/documentation/installation.md",
+  "template": "/templates/markdown-page.html"
+}

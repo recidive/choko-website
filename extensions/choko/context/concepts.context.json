@@ -1,0 +1,35 @@
+{
+  "title": "Home",
+  "description": "Home page stuff.",
+  "conditions": {
+    "path": ["/documentation/concepts"]
+  },
+  "reactions": {
+    "panel": {
+      "feature-first": [{
+        "name": "feature-pages",
+        "weight": 0
+      },
+      {
+        "name": "feature-panels",
+        "weight": 1
+      }],
+      "feature-second": [{
+        "name": "feature-navigations",
+        "weight": 0
+      },
+      {
+        "name": "feature-layouts",
+        "weight": 1
+      }],
+      "feature-third": [{
+        "name": "feature-contexts",
+        "weight": 0
+      },
+      {
+        "name": "feature-rules",
+        "weight": 1
+      }]
+    }
+  }
+}

@@ -1,15 +1,26 @@
-## [Concepts](/documentation/concepts)
+## Installation
 
-Choko concepts, terminology and the technology behind it.
+Installing Choko is a easy task, you just need access to the command line for installing and starting the application.
 
-## [Installation](/documentation/installation)
+### Requirements
 
-How to install Choko, from the most basic setup, to advanced production configuration.
+Choko was built in Node.js, so basically you need a machine where you can run Node.js applications.
 
-## [Development](/documentation/development)
+ - **Server:** A server capable of running Node.js and MongoDB.
+ - **Node.js version:** Choko requires Node.js version 0.10 or above.
+ - **Database:** Although we support multiple databases via [Waterline](https://github.com/balderdashy/waterline). Choko was only tested with MongoDB.
 
-Develop applications with Choko, learn how to create types, panels, pages, etc.
+### Install Choko with NPM
 
-## [Theming](/documentation/theming)
+```
+$ npm install -g choko
+```
 
-Change your application look and feel. Edit templates and add styles.
+Start application server on applications folder (or any other you want):
+
+```
+$ mkdir applications
+$ choko applications
+```
+
+By default Choko will start on port 3000. Check [the documentation](/documentation/installation) for more ways you can install Choko.
