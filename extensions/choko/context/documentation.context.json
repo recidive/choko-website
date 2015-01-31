@@ -1,0 +1,16 @@
+{
+  "title": "Documentation section",
+  "description": "Documentation section.",
+  "conditions": {
+    "path": ["/getting-started", "/documentation/*"]
+  },
+  "reactions": {
+    "layout": "two-columns-3-9",
+    "panel": {
+      "sidebar": [{
+        "name": "navigation-documentation",
+        "weight": 0
+      }]
+    }
+  }
+}

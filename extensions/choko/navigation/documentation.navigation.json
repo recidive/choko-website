@@ -1,0 +1,14 @@
+{
+  "title": "Documentation",
+  "description": "Choko documentation.",
+  "items": [
+    {
+      "title": "Getting started",
+      "url": "/getting-started"
+    },
+    {
+      "title": "Installation",
+      "url": "/documentation/installation"
+    }
+  ]
+}
