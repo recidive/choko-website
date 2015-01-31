@@ -9,6 +9,10 @@
     {
       "title": "Installation",
       "url": "/documentation/installation"
-    }
+    },
+    {
+      "title": "Creating an application",
+      "url": "/documentation/creating-an-application"
+    }  
   ]
 }
