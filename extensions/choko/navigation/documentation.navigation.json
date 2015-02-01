@@ -13,6 +13,10 @@
     {
       "title": "Creating an application",
       "url": "/documentation/creating-an-application"
-    }  
+    },
+    {
+      "title": "Concepts",
+      "url": "/documentation/concepts"
+    }
   ]
 }
