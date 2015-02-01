@@ -6,6 +6,8 @@ Choko has some concepts that abstracts the pieces you need in every web applicat
 
 Types define your application objects, for example, a contact management application has a "contact" type, an e-commerce application has "product" and "order" types, and so on.
 
+[Creating types](/documentation/creating-types) | [Core types](/documentation/core-types)
+
 ### Fields
 
 A type usually has one or more fields that set what properties it holds. Choko comes with several field types for the most common data you may need in your application.

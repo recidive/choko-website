@@ -17,6 +17,14 @@
     {
       "title": "Concepts",
       "url": "/documentation/concepts"
+    },
+    {
+      "title": "Creating types",
+      "url": "/documentation/creating-types"
+    },
+    {
+      "title": "Core types",
+      "url": "/documentation/core-types"
     }
   ]
 }
