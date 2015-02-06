@@ -35,3 +35,5 @@ The main core types are:
  - Users
  - Roles
  - Permissions
+
+[Core types](/documentation/core-types) | [Creating types](/documentation/creating-types)

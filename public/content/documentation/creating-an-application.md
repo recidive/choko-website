@@ -1,5 +1,3 @@
-## Creating an application
-
 There are two ways you can create an application in Choko: by using the installer or creating an application by hand.
 
 ### Creating an application using the installer

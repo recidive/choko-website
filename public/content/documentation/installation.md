@@ -1,5 +1,3 @@
-## Installation
-
 Installing Choko is a easy task, you just need access to the command line for installing and starting the application.
 
 ### Requirements
