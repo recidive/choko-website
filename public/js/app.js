@@ -19,4 +19,4 @@ angular.module('choko', [
     enabled: true,
     requireBase: false
   });
-});
+}]);
