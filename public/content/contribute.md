@@ -10,11 +10,13 @@ If you are a developer, you can get involved with Choko core development, as wel
 
 Choko is under active development, as every piece of software, sometimes things may not work properly, we need people to test, break things and report back as issues, then developers will take care of given proper feedback.
 
-[Install choko](/documentation/installation) | [Issue queue](https://github.com/recidive/choko/issues)
+[Install Choko](/documentation/installation) | [Issue queue](https://github.com/recidive/choko/issues)
 
 ## Documentation
 
 Developers are always busy with coding the next thing you'll use, but documenting them are not always their top priority. Also freeing developers from having to write in languages other than the programming ones can keep them focused on doing what they do better.
+
+[Documentation](/getting-started)
 
 ## Spreading the word
 

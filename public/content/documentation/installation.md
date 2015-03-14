@@ -10,28 +10,19 @@ Choko was built in Node.js, so basically you need a machine where you can run No
 
 ### Install Choko with NPM
 
-```
-$ npm install -g choko
-```
+    $ npm install -g choko
 
 Start application server on applications folder (or any other you want):
 
-```
-$ mkdir applications
-$ choko applications
-```
+    $ choko myApp
 
 By default Choko will start on port 3000. If you need to start the Choko server on another port than 3000 you can use the -p argument:
 
-```
-$ choko applications -p 8080
-```
+    $ choko start -p 8080 myApp
 
-For running on port 80 you can create a iptables rule like this, so you don't need to run the application as root user that can be dangerous:
+For running on port 80 you can create a iptables rule like this, so you don't need to run the application as root:
 
-```
-$ iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
-```
+    $ iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
 
 Alternatively you can use some kind of proxy or loadbalancer for routing your application to port 80.
 
@@ -41,20 +32,14 @@ Sometimes, specially when you start to get involved with Choko development, you 
 
 For installing latest Choko development code, you should start by cloning its git repository:
 
-```
-$ git clone https://github.com/recidive/choko.git
-```
+    $ git clone https://github.com/recidive/choko.git
 
 The you need to install both backend and frontend dependencies:
 
-```
-$ cd choko
-$ npm install
-$ bower install
-```
+    $ cd choko
+    $ npm install
+    $ bower install
 
 Start the server:
 
-```
-$ node server.js /path/to/your/applications/folder
-```
+    $ node server.js /path/to/your/application

@@ -12,15 +12,10 @@ Choko was built in Node.js, so basically you need a machine where you can run No
 
 ### Install Choko with NPM
 
-```
-$ npm install -g choko
-```
+    $ npm install -g choko
 
-Start application server on applications folder (or any other you want):
+Create an application:
 
-```
-$ mkdir applications
-$ choko applications
-```
+    $ choko myApp
 
 By default Choko will start on port 3000. Check [the documentation](/documentation/installation) for more ways you can install Choko.
