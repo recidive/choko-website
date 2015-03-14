@@ -4,7 +4,7 @@ Choko is an Open Source project, there are many ways you can contribute to help 
 
 If you are a developer, you can get involved with Choko core development, as well as start your own Choko extension project by using Choko APIs. A good way to find what to work on is checking the [issue queue](https://github.com/recidive/choko/issues).
 
-[Github repository](https://github.com/recidive/choko) | [Issue queue](https://github.com/recidive/choko/issues)
+[Github repository](https://github.com/recidive/choko) | [Issue queue](https://github.com/recidive/choko/issues) | [Waffle board](https://waffle.io/recidive/choko)
 
 ## Testing and bug reporting
 
