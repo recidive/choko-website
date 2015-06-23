@@ -14,7 +14,7 @@ A type usually has one or more fields that set what properties it holds. Choko c
 
 ### Extensions
 
-Extensions encapsulates one or more generic functionalities that can be shared and resused across applications.
+Extensions encapsulates one or more generic functionalities that can be shared and reused across applications.
 
 ### Hooks
 

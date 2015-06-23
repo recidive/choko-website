@@ -31,6 +31,12 @@ Then start the application. If you are on the application folder itself you can 
 $ choko start
 ```
 
+You can also pass the path to your application folder:
+
+```
+$ choko start path/to/myApp
+```
+
 #### Application folder structure
 
 The folder structure for your application will look something like this:
